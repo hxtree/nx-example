@@ -2,12 +2,15 @@
   "name": "nx-example",
   "version": "0.0.1",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky install"
+  },
   "private": true,
   "dependencies": {},
   "devDependencies": {
     "@nx/js": "18.0.1",
-    "nx": "18.0.1"
+    "nx": "18.0.1",
+    "husky": "^8.0.0"
   },
   "workspaces": [
     "packages/*"
