@@ -8,9 +8,10 @@ Install monorepo build system.
 npm install --global nx
 ```
 
-Build all packages.
+Install and build all packages.
 
 ```bash
+yarn install
 nx run-many -t build --all
 ```
 

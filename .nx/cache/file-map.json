@@ -14,23 +14,6 @@
   },
   "fileMap": {
     "projectFileMap": {
-      "is-odd": [
-        {
-          "file": "packages/is-odd/dist/index.js",
-          "hash": "12365333080731869163"
-        },
-        {
-          "file": "packages/is-odd/index.ts",
-          "hash": "4573359006613796017"
-        },
-        {
-          "file": "packages/is-odd/package.json",
-          "hash": "6000585202815766742",
-          "deps": [
-            "is-even"
-          ]
-        }
-      ],
       "is-even": [
         {
           "file": "packages/is-even/dist/index.js",
@@ -47,6 +30,23 @@
             "npm:typescript"
           ]
         }
+      ],
+      "is-odd": [
+        {
+          "file": "packages/is-odd/dist/index.js",
+          "hash": "12365333080731869163"
+        },
+        {
+          "file": "packages/is-odd/index.ts",
+          "hash": "4573359006613796017"
+        },
+        {
+          "file": "packages/is-odd/package.json",
+          "hash": "6000585202815766742",
+          "deps": [
+            "is-even"
+          ]
+        }
       ]
     },
     "nonProjectFiles": [
@@ -57,6 +57,10 @@
       {
         "file": ".devcontainer/docker-compose.yml",
         "hash": "8689796056612736390"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "6632989256698281492"
       },
       {
         "file": ".vscode/app.code-workspace",
@@ -80,7 +84,7 @@
       },
       {
         "file": "README.md",
-        "hash": "17498693002907381414"
+        "hash": "13171219492027926451"
       },
       {
         "file": "docker-compose.yml",
@@ -89,10 +93,6 @@
       {
         "file": "nx.json",
         "hash": "5464439047800393556"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "14163971036389766568"
       },
       {
         "file": "package.json",

@@ -1,8 +1,8 @@
 {
   "run": {
     "command": "nx run-many -t build --all",
-    "startTime": "2024-02-05T00:26:35.757Z",
-    "endTime": "2024-02-05T00:26:39.212Z",
+    "startTime": "2024-02-05T00:41:20.602Z",
+    "endTime": "2024-02-05T00:41:27.411Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "is-even:build",
       "target": "build",
       "projectName": "is-even",
-      "hash": "9068504228309987741",
-      "startTime": "2024-02-05T00:26:35.766Z",
-      "endTime": "2024-02-05T00:26:37.409Z",
+      "hash": "2453090599562474476",
+      "startTime": "2024-02-05T00:41:20.617Z",
+      "endTime": "2024-02-05T00:41:23.941Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0
@@ -21,9 +21,9 @@
       "taskId": "is-odd:build",
       "target": "build",
       "projectName": "is-odd",
-      "hash": "4226109383073698189",
-      "startTime": "2024-02-05T00:26:37.411Z",
-      "endTime": "2024-02-05T00:26:39.211Z",
+      "hash": "5845971038196813214",
+      "startTime": "2024-02-05T00:41:23.946Z",
+      "endTime": "2024-02-05T00:41:27.409Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0
