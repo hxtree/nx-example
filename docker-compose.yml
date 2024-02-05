@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+    nx-example:
+        build:
+            context: .
+            dockerfile: Dockerfile
+            target: test
+        container_name: nx-example
+        tty: true
+        stdin_open: true

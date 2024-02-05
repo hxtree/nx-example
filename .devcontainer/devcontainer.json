@@ -1,0 +1,17 @@
+{
+  "name": "nx-example",
+  "dockerComposeFile": ["../docker-compose.yml", "docker-compose.yml"],
+  "service": "nx-example",
+  "workspaceFolder": "/usr/src/app",
+  "remoteUser": "node",
+  "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "hxtree/nx-example": {
+          "permissions": "write-all"
+        }
+      }
+    }
+  }
+}

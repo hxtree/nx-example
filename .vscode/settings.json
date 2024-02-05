@@ -1,0 +1,103 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.nyc_output": true,
+    "**/.rush": true
+  },
+  "files.exclude": {
+    "**/.nyc_output": true,
+    "**/.rush": true,
+    "**/*.build.log": true,
+    "**/*.build.error.log": true,
+    "**/generated-docs": true,
+    "**/package-deps.json": true,
+    "**/test-apps/**/build": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "editor.rulers": [
+    {
+      "column": 80,
+      "color": "#ff00FF"
+    },
+    100,
+    {
+      "column": 120,
+      "color": "#ff0000"
+    }
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "eslint.nodePath": "common/temp/node_modules",
+  "eslint.trace.server": "verbose",
+  "eslint.options": {
+    "resolvePluginsRelativeTo": "./node_modules/@cats-cradle/eslint-config",
+    "rules": {
+      "max-len": [2, { "code": 100, "ignoreComments": false }]
+    }
+  },
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "editor.codeActionsOnSave": {
+    "editor.action.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.markdownlint": "explicit"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "files.associations": { "*.json": "jsonc" },
+  "versionlens.suggestions.showOnStartup": true,
+  "jest.jestCommandLine": "rush test",
+  "cSpell.words": [
+    "Aniroth",
+    "Asmin",
+    "bson",
+    "Embeddable",
+    "esbuild",
+    "Gaali",
+    "Genki",
+    "Lawzon",
+    "Loomee",
+    "Malace",
+    "Meeku",
+    "nestjs",
+    "openapi",
+    "Ouren",
+    "pnpm",
+    "SUYRI",
+    "testid",
+    "Traez",
+    "upsert",
+    "Vachel",
+    "Vallon",
+    "VALLONS",
+    "vendia",
+    "virtuals"
+  ],
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "livePreview.defaultPreviewPath": "/services/design-system/storybook-static/index.html"
+}

@@ -1,0 +1,107 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.0.1",
+  "deps": {
+    "@nx/js": "18.0.1",
+    "nx": "18.0.1"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "pluginsConfig": {
+    "@nx/js": {
+      "analyzeSourceFiles": false
+    }
+  },
+  "fileMap": {
+    "projectFileMap": {
+      "is-odd": [
+        {
+          "file": "packages/is-odd/dist/index.js",
+          "hash": "12365333080731869163"
+        },
+        {
+          "file": "packages/is-odd/index.ts",
+          "hash": "4573359006613796017"
+        },
+        {
+          "file": "packages/is-odd/package.json",
+          "hash": "6000585202815766742",
+          "deps": [
+            "is-even"
+          ]
+        }
+      ],
+      "is-even": [
+        {
+          "file": "packages/is-even/dist/index.js",
+          "hash": "2921582372963427275"
+        },
+        {
+          "file": "packages/is-even/index.ts",
+          "hash": "12164224959172939636"
+        },
+        {
+          "file": "packages/is-even/package.json",
+          "hash": "3657724078352860612",
+          "deps": [
+            "npm:typescript"
+          ]
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".devcontainer/devcontainer.json",
+        "hash": "1327764542349499308"
+      },
+      {
+        "file": ".devcontainer/docker-compose.yml",
+        "hash": "8689796056612736390"
+      },
+      {
+        "file": ".vscode/app.code-workspace",
+        "hash": "15104268452949695781"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "643362435959769196"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "16421698101155331191"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "10258690946509374399"
+      },
+      {
+        "file": "Dockerfile",
+        "hash": "17855288541676417218"
+      },
+      {
+        "file": "README.md",
+        "hash": "17498693002907381414"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "2539635407479031475"
+      },
+      {
+        "file": "nx.json",
+        "hash": "5464439047800393556"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "14163971036389766568"
+      },
+      {
+        "file": "package.json",
+        "hash": "3386517507008528071"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "10836363307943050686"
+      }
+    ]
+  }
+}
