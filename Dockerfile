@@ -33,7 +33,9 @@ RUN apt update \
     # install conventional commits
     && npm install --global @commitlint/config-conventional \
     && npm install --global @commitlint/cli \
-    && npm install --global nx
+    && npm install --global nx \
+    # https://yarnpkg.com/getting-started/install
+    && corepack enable
 
 ################################################################################
 #                                  Test Base                                   #
