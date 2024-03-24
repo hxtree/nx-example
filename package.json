@@ -6,13 +6,13 @@
     "prepare": "husky install"
   },
   "private": true,
-  "dependencies": {},
   "devDependencies": {
     "@nx/js": "18.0.1",
-    "nx": "18.0.1",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "nx": "18.0.1"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "packageManager": "yarn@4.1.1"
 }

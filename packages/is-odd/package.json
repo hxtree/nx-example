@@ -1,12 +1,13 @@
 {
-  "name": "is-odd",
-  "version": "0.0.0",
+  "name": "@nx-example/is-odd",
+  "version": "0.0.1",
+  "private": true,
   "main": "dist/index.js",
-  "devDependencies": {},
   "scripts": {
     "build": "tsc index.ts --outDir dist"
   },
   "dependencies": {
-    "is-even": "*"
+    "@nx-example/is-even": "workspace:*",
+    "typescript": "^5.3.3"
   }
 }
